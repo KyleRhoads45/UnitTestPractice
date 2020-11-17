@@ -21,6 +21,13 @@ TEST(PracticeTest, is_not_simple_palindrome)
     ASSERT_TRUE(actual);
 }
 
+TEST(PracticeTest, is_palindrome_with_capital)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("abA");
+    ASSERT_TRUE(actual);
+}
+
 TEST(PracticeTest, is_simple_palindrome)
 {
     Practice obj;
